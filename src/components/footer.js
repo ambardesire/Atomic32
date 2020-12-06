@@ -16,7 +16,7 @@ export default class WebLanding extends Component{
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <img src={icon2} className="icon2" alt=""/>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <img src={icon3} clasName="icon3" alt=""/>
+                <img src={icon3} className="icon3" alt=""/>
                 </span>
             </div>
             </footer>

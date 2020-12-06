@@ -13,7 +13,7 @@ export default class WebLanding extends Component{
     render(){
         return(
             <div>
-                <p>
+                <div>
                     <div> 
                         <br/><br/><br/><br/>
                         <span className="text7">SOMOS&nbsp;EL&nbsp;BRAZO&nbsp;DERECHO&nbsp;</span>
@@ -21,7 +21,7 @@ export default class WebLanding extends Component{
                     <div>
                         <span className="text8">DE&nbsp;LA&nbsp;TECNOLOGÍA</span>
                     </div>
-                </p>
+                </div>
                 <br/><br/><br/>
                 <div class="card-deck" style={{marginLeft:30}}>
                     <div class="card sideCards" style={{maxWidth:370, height:439}}>

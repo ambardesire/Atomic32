@@ -10,7 +10,7 @@ export default class WebLanding extends Component{
     render(){
         return(
             <div>
-                <p className="img1">
+                <div className="img1">
                     <div> 
                         <span className="text1">Desarrolla&nbsp;todo</span>
                     </div>
@@ -26,7 +26,7 @@ export default class WebLanding extends Component{
                     <div>
                           <a class="nav-link" href="./solicitud"><button type="button" class="btn btn-light btn-sm btn1 rounded-pill">¡Quiero ser parte!</button></a>
                     </div>
-                </p>
+                </div>
                 <img src={icon1} alt="" className="icon1"/><br/>
                 <span className="text6">Quiero saber más</span>
                 <WebLanding2/>

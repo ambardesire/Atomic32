@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import '../assets/css/Solicitud.css'
 import ProgressBar from 'react-bootstrap/ProgressBar'
-import Form from 'react-bootstrap/Form'
+import { withRouter } from 'react-router-dom'
 
 /******images********/
 import img10 from '../assets/images/Group_4014.png'
@@ -13,15 +13,43 @@ import img14 from '../assets/images/Group_40152x.png'
 import img8 from '../assets/images/Group_4043.png'*/
 
 
-/***********Compnents*********/
+/***********Components*********/
 import FooterSection from './footer'
 
+const validate = values => {
+    const errors = {}
+    console.log(values)
+    if(values.name.length < 5) {
+        errors.name = 'El nombre deberá tener mínimo 5 caracteres'
+    }
+    return errors
+}
 
-export default class Solicitud extends Component{
+class Solicitud extends Component{
+    state = {
+        errors: {}
+    }   
+
+    handleChange = ({ target }) => {
+       const {name, value} = target
+       this.setState({  [name]: value})
+    }
+    handleSubmit = e => {
+        e.preventDefault()
+        const { errors, ...noErrors } = this.state
+        const result = validate(noErrors)
+        this.setState({ errors: result })
+        if (!Object.keys(result).length){
+            //Enviar formulario
+            this.props.history.push('./solicitudStep2')
+        }
+    }
+
     render(){
+        const { errors } = this.state
         return(
             <div>
-                <p className="img9">
+                <div className="img9" style={{maxWidth:1366}}>
                     <div> 
                     <span><img src={img10} alt="" className="img10"/><img src={img11} className="img11" alt=""/><img src={img12} className="img12" alt=""/><img src={img13} className="img13" alt=""/></span>
                     </div> 
@@ -32,20 +60,23 @@ export default class Solicitud extends Component{
                     <br/><br/><br/>
                     <span className="text15">Queremos saber que eres tú, por favor ingresa los siguientes datos:</span>
                     <br/><br/> 
-                    <form name="FullName" id="FullName">
-                    <Form.Label className="labelText">Nombre (s)</Form.Label>
-                    <Form.Control type="text" className="formAlign"/>
-                    <br/>
-                    <Form.Label className="labelText">Apellidos</Form.Label>
-                    <Form.Control type="text" className="formAlign"/>
-                    <br/><br/><br/>
-                    <input type="submit" class="btn btn-light btn-sm btn2 rounded-pill" value="Enviar"/>
+                    <form onSubmit={this.handleSubmit} name="Full Name" id="Full Name">
+                        <label type="text" className="labelText" htmlFor="name">Nombre (s)</label><br/>
+                        <input className="formAlign" name="name" onChange={this.handleChange} required/>
+                            {errors.name && <h5 className="errorText">{errors.name}</h5>}
+                        <br/><br/>
+                        <label className="labelText" htmlFor="surname">Apellidos</label><br/>
+                        <input type="text" className="formAlign" name="surname" required/>
+                        <br/><br/>
+                        <button type='submit' className="btn btn-light btn-sm btn3 rounded-pill" form="Full Name">Enviar</button>
                     </form>                  
-                </p>
-                <br/><br/><br/>
+                </div>
+                <br/><br/><br/><br/>
                 <footer><FooterSection/></footer>
                 
             </div>
         )
     }
 }
+
+export default withRouter(Solicitud);

@@ -1,0 +1,107 @@
+/***********images************/
+.img27{
+    margin-top: 117px;
+    margin-left: 925px;
+    width: 384px;
+    height: 653px;
+    background: transparent url('../images/Group_4038.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.img28{
+    margin-top: 0px;
+    margin-left: -780px;
+    width: 32px;
+    height: 32px;
+    opacity: 1;
+}
+
+.img281{
+    margin-top: 0px;
+    margin-left: 173px;
+    width: 32px;
+    height: 32px;
+    opacity: 1;
+}
+
+.img30{
+    margin-left: -830px;
+    margin-top: -30px;
+    width: 48px;
+    height: 48px;
+    opacity: 1;
+}
+
+/***********progress bar**********/
+.progress80{
+    margin-left: -830px;
+    width: 750px;
+    height: 12px;
+    background: #EAEAEA 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+}
+
+/*********text styles**********/
+.text31{
+    margin-left: -830px;
+    width: 73px;
+    height: 19px;
+    text-align: left;
+    font-family: normal 16px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 16px;
+}
+
+.text32{
+    width: 495px;
+    height: 57px;
+    text-align: left;
+    font-family: normal 46px Montserrat;
+    letter-spacing: -0.69px;
+    opacity: 1;
+    font-size: 46px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
+.text33{
+    width: 495px;
+    height: 57px;
+    text-align: left;
+    font-family: normal 46px Montserrat;
+    letter-spacing: -0.69px;
+    opacity: 1;
+    font-size: 46px;
+    font-weight: 800;
+    color: #FA4D09;
+}
+
+.text34{
+    margin-left: -830px;
+    width: 393px;
+    height: 57px;
+    text-align: left;
+    font-family: normal 24px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 24px;
+    font-weight: medium;
+}
+
+.text35{
+    margin-left: -830px;
+    width: 333px;
+    height: 24px;
+    text-align: left;
+    font-family: normal 20px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
