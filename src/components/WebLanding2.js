@@ -87,7 +87,7 @@ export default class WebLanding extends Component{
                 </div>
                 <br/><br/>
                 <div>
-                    <a class="nav-link" href="./solicitud"><button type="button" class="btn btn-light btn-sm btn2 rounded-pill">¡Quiero ser parte!</button></a>
+                    <a class="nav-link" href="./Solicitud"><button type="button" class="btn btn-light btn-sm btn2 rounded-pill">¡Quiero ser parte!</button></a>
                 </div>
                 <br/><br/>
                 <p>
@@ -152,7 +152,7 @@ export default class WebLanding extends Component{
                     </table>
                     <br/><br/>
                     <div>
-                        <a class="nav-link" href="./solicitud"><button type="button" class="btn btn-light btn-sm btn2 rounded-pill">¡Quiero ser parte!</button></a>
+                        <a class="nav-link" href="./Solicitud"><button type="button" class="btn btn-light btn-sm btn2 rounded-pill">¡Quiero ser parte!</button></a>
                     </div>
 
                 </div>

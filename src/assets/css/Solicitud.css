@@ -1,36 +1,147 @@
-body{
-    background: url('../images/Mask Group 1.png') no-repeat #072348 0% 0% padding-box;
-    width: 100%;
-    height: 761px;
-    top: 0;
-  }
-  footer{
-      bottom: 0%;
-      margin-bottom: 0%;
-  }
-  /********images*******/
+ /********images*******/
   
-  .img9{
-    margin-top: 106px;
-    margin-left: 891px;
-    width: 423px;
-    height: 559px;
-    background: transparent url('../images/Group_4033.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-  }
+.img9{
+  margin-top: 106px;
+  margin-left: 891px;
+  width: 423px;
+  height: 559px;
+  background: transparent url('../images/Group_4033.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.img10{
+  margin-left: -680px;
+  width: 32px;
+  height: 32px;
+  opacity: 1;
+}
+
+.img11{
+  margin-left: 164px;
+  width: 32px;
+  height: 32px;
+  opacity: 1;
+}
+
+.img12{
+  margin-left: 164px;
+  width: 32px;
+  height: 32px;
+  opacity: 1;
+}
+
+.img13{
+  margin-left: 164px;
+  width: 32px;
+  height: 32px;
+  opacity: 1;
+}
+
+.img14{
+  margin-left: -830px;
+  margin-top: -30px;
+  width: 48px;
+  height: 48px;
+  opacity: 1;
+}
+
 
   /************text************/
 
-  .text12{
-    margin-left: -647px;
-    margin-top: 230px;
-    text-align: left;
-    font-family: normal 62px Montserrat;
-    letter-spacing: -0.19px;
-    color: #FFFFFF;
-    opacity: 1;
-    font-size: 62px;
-    font-weight: bold;
-    width: 521px;
-    height: 72px;
-  }
+.text12{
+  margin-left: -647px;
+  margin-top: 230px;
+  text-align: left;
+  font-family: normal 62px Montserrat;
+  letter-spacing: -0.19px;
+  color: #FFFFFF;
+  opacity: 1;
+  font-size: 62px;
+  font-weight: bold;
+  width: 521px;
+  height: 72px;
+}
+
+.text13{
+  margin-left: 24px;
+  width: 362px;
+  height: 57px;
+  text-align: left;
+  font-family: normal 46px Montserrat;
+  letter-spacing: -0.69px;
+  color: #FFFFFF;
+  font-size: 46px;
+  font-weight: 800;
+}
+
+.text14{
+  margin-left: 0px;
+  width: 362px;
+  height: 57px;
+  text-align: left;
+  font-family: normal 46px Montserrat;
+  letter-spacing: -0.69px;
+  color: #FA4D09;
+  font-size: 46px;
+  font-weight: 800;
+}
+
+.text15{
+  margin-top: 55px;
+  margin-left: -830px;
+  width: 814px;
+  height: 29px;
+  text-align: left;
+  font-family: normal 24px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  font-size: 24px;
+  font-weight: medium;
+}
+
+.labelText{
+  margin-left: -830px;
+  width: 118px;
+  height: 25px;
+  text-align: left;
+  font-family: normal 21px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  font-size: 21px;
+  font-weight: medium;
+}
+
+/**********Bar************/
+.progress25{
+  margin-left: -830px;
+  width: 814px;
+  height: 12px;
+  color: #EAEAEA 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  opacity: 1;
+}
+
+/*****form*******/
+.formAlign{
+  width: 444px;
+  height: 48px; 
+  margin-left: -830px;
+}
+
+/******buttons******/
+.btn3{
+  margin-left: -230px;
+  width: 220px;
+  height: 48px;
+  text-align: center;
+  font-family: normal 20px Montserrat;
+  letter-spacing: 0px;
+  background-color: #FA4D09;
+  color: white;
+  opacity: 1;
+  font-size: 24px;
+  font-weight: 600;
+  border-color: #FA4D09;
+}
