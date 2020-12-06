@@ -54,6 +54,19 @@ body{
     opacity: 1;
 
   }
+
+  /********icons********/
+.iconCheck{
+  width: 32px;
+  height: 32px;
+  opacity: 1;
+}
+
+.miniCheck{
+  width: 24px;
+  height: 24px;
+  opacity: 1;
+}
   
   /********text*********/
   
@@ -215,6 +228,42 @@ body{
     opacity: 1;
   }
 
+.tableTittle{
+  width: 195px;
+  height: 24px;
+  text-align: center;
+  font-family: normal 20px Montserrat;
+  letter-spacing: 0px;
+  color: #0A2240;
+  opacity: 1;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tableAtomic{
+  width: 130px;
+  height: 38px;
+  text-align: center;
+  font-family: normal 31px Montserrat;
+  letter-spacing: 0px;
+  color: #0A2240;
+  opacity: 1;
+  font-size: 31px;
+  font-weight: bold;
+}
+
+.tableText{
+  width: 295px;
+  height: 23px;
+  text-align: left;
+  font-family: normal 16px Poppins;
+  letter-spacing: 0px;
+  color: #0A2240;
+  opacity: 1;
+  font-size: 16px;
+  vertical-align: center;
+}
+
   /**********containers*******/
   .topContainer{
     margin-left: 0;
@@ -244,4 +293,56 @@ table{
   box-shadow: -1px 7px 14px #87878740;
   border-radius: 8px;
   opacity: 1;
+}
+
+.lastColumn{
+  background: #d1e9f8;
+}
+
+/***********lists*******/
+
+.list1{
+  margin-left: 155px;
+  margin-top: -70px;
+  width: 282px;
+  height: 119px;
+  text-align: left;
+  font-family: normal 23px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  font-size: 23px;
+  font-weight: 600;
+  background: none;
+  list-style: none;
+}
+
+.list2{
+  margin-left: 559px;
+  margin-top: -130px;
+  width: 282px;
+  height: 119px;
+  text-align: left;
+  font-family: normal 23px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  font-size: 23px;
+  font-weight: 600;
+  list-style: none;
+}
+
+.list3{
+  margin-top: -130px;
+  margin-left: 976px;
+  width: 282px;
+  height: 119px;
+  text-align: left;
+  font-family: normal 23px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  font-size: 23px;
+  font-weight: 600;
+  list-style: none;
 }

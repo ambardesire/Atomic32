@@ -7,6 +7,7 @@ import img5 from '../assets/images/Group_4040.png'
 import img6 from '../assets/images/Group_4041.png'
 import img7 from '../assets/images/Group_4042.png'
 import img8 from '../assets/images/Group_4043.png'
+import iconCheck from '../assets/images/ic_check_tiny.png'
 
 export default class WebLanding extends Component{
     render(){
@@ -96,57 +97,61 @@ export default class WebLanding extends Component{
                 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
                 <div className="topContainer">
                     <span><img src={img6} alt="" className="img6"/><img src={img7} className="img7" alt=""/><img src={img8} className="img8" alt=""/></span>
-                    <br/><br/>
+                   <span>
+                        <ul className="list1">
+                            <li><img src={iconCheck} alt="" className="miniCheck"/>&nbsp;&nbsp;Usamos las tecnologías más modernas.</li>
+                            <li><img src={iconCheck} alt="" className="miniCheck"/>&nbsp;&nbsp;Innovamos y creamos proyectos retadores.</li>
+                        </ul>
+                        <ul className="list2">
+                            <li><img src={iconCheck} alt="" className="miniCheck"/>&nbsp;&nbsp;¡Trabajamos en equipo rumbo al éxito!</li>
+                            <li><img src={iconCheck} alt="" className="miniCheck"/>&nbsp;&nbsp;No tenemos código de vestimenta.</li>
+                        </ul>
+                        <ul className="list3">
+                            <li><img src={iconCheck} alt="" className="miniCheck"/>&nbsp;&nbsp;Realizamos actividades para tu bienestar.</li>
+                            <li><img src={iconCheck} alt="" className="miniCheck"/>&nbsp;&nbsp;¡Tenemos un parque frente a la oficina!.</li>
+                        </ul>
+                   </span>
                 </div>
                 <div className="bottomContainer">
-                    <table class="table table-light" style={{marginLeft:100}}>
+                    <br/><br/><br/><br/><br/>
+                    <table class="table table-light" style={{marginLeft:100, height:421, width: 1150}}>
                         <thead>
                             <tr>
-                            <th scope="col">First</th>
-                            <th scope="col">Last</th>
-                            <th scope="col">Handle</th>
+                            <th scope="col" className="tableTittle, rounded mb-0" style={{width:500, textAlign:"left"}}>CARACTERÍSTICAS</th>
+                            <th scope="col" className="tableTittle">OTROS</th>
+                            <th scope="col" className="tableAtomic lastColumn" style={{width:321}}>ATOMIC</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                            <th scope="row" style={{height:37}}>1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
+                            <td style={{height:37}} className="tableText">Equipo inclusivo, honesto y auténtico</td>
+                            <td style={{textAlign: "center"}}><img src={iconCheck} alt="" className="iconCheck"/></td>
+                            <td style={{textAlign: "center"}} className="lastColumn"><img src={iconCheck} alt="" className="iconCheck"/></td>
                             </tr>
                             <tr>
-                            <th scope="row" style={{height:37}}>2</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
+                            <td style={{height:37}} className="tableText">Puntualidad es nuestro segundo nombre</td>
+                            <td style={{textAlign: "center"}}><img src={iconCheck} alt="" className="iconCheck"/></td>
+                            <td style={{textAlign: "center"}} className="lastColumn"><img src={iconCheck} alt="" className="iconCheck"/></td>
                             </tr>
                             <tr>
-                            <th scope="row" style={{height:37}}>3</th>
-                            <td>Larry</td>
-                            <td>the Bird</td>
+                            <td style={{height:37}} className="tableText">Siempre innovamos en nuestros productos</td>
+                            <td style={{textAlign: "center"}}><img src={iconCheck} alt="" className="iconCheck"/></td>
+                            <td style={{textAlign: "center"}} className="lastColumn"><img src={iconCheck} alt="" className="iconCheck"/></td>
                             </tr>
                             <tr>
-                            <th scope="row" style={{height:37}}>3</th>
-                            <td>Larry</td>
-                            <td>the Bird</td>
+                            <td style={{height:37}} className="tableText">Te ayudamos a crecer e implementar nuevos conocimientos</td>
+                            <td> </td>
+                            <td style={{textAlign: "center"}} className="lastColumn"><img src={iconCheck} alt="" className="iconCheck"/></td>
                             </tr>
                             <tr>
-                            <th scope="row" style={{height:37}}>3</th>
-                            <td>Larry</td>
-                            <td>the Bird</td>
+                            <td style={{height:37}} className="tableText">Nos preocupamos por tu bienestar</td>
+                            <td> </td>
+                            <td style={{textAlign: "center"}} className="lastColumn"><img src={iconCheck} alt="" className="iconCheck"/></td>
                             </tr>
                             <tr>
-                            <th scope="row" style={{height:37}}>3</th>
-                            <td>Larry</td>
-                            <td>the Bird</td>
-                            </tr>
-                            <tr>
-                            <th scope="row" style={{height:37}}>3</th>
-                            <td>Larry</td>
-                            <td>the Bird</td>
-                            </tr>
-                            <tr>
-                            <th scope="row" style={{height:37}}>3</th>
-                            <td>Larry</td>
-                            <td>the Bird</td>
+                            <td style={{height:37}} className="tableText">El respeto es una parte fundamental</td>
+                            <td> </td>
+                            <td style={{textAlign: "center"}} className="lastColumn"><img src={iconCheck} alt="" className="iconCheck"/></td>
                             </tr>
                         </tbody>
                     </table>
